@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.fa-edit{
+	color:green;
+	cursor:pointer;
+}
+
+.fa-trash-alt{
+	color:red;
+	cursor:pointer;
+}
+
+.fas{
+	margin-left:1em;
+}
+
+#root{
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+}
+
+#content-wrapper {
+	display: flex;
+
+	flex-direction:column;
+	margin-top:4em;
+	background-color:#F5F5F5;
+	padding:2em;
+}
+
+#btn-clearList{
+	margin-top:1em;
+}
+
+#todo-input-form{
+	margin-bottom:1em;
+}
+
+h2{
+	text-align:center;
+}
